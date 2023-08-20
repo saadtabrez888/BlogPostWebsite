@@ -1,6 +1,5 @@
 import Comment from '../model/comment.js';
 
-
 export const newComment = async (request, response) => {
     try {
         const comment = await new Comment(request.body);
