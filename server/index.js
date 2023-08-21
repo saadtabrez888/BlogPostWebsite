@@ -17,7 +17,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/', Router);
 
 
-
 app.listen(PORT, () => console.log(`Server is running successfully on PORT ${PORT}`));
 
 
